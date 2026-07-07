@@ -1,0 +1,41 @@
+# =============================================================
+# .gitignore - aws-cloudsupport-lab
+# =============================================================
+
+# Variaveis de ambiente e segredos
+.env
+.env.*
+*.env
+
+# Credenciais AWS (NUNCA commitar)
+.aws/
+credentials
+
+# Logs gerados pelos scripts de lab
+*.log
+logs/
+
+# Arquivos de evidencia e prints (dados de cliente)
+evidence/
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Arquivos temporarios
+*.tmp
+*.bak
+*.swp
+*~
+
+# Python (scripts auxiliares)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editores
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
